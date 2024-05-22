@@ -12,7 +12,11 @@ const hero = () => {
                 </div>
                 <div className="lg:flex-grow font-ku md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <span className='text-rose-500 font-ku font-bold text-lg'>مستر/</span>
+<<<<<<< HEAD
                     <h1 className='font-ku mb-3 text-cyan-700 font-bold text-4xl handlename text-right'>مصطفي محمد</h1>
+=======
+                    <h1 className='font-ku mb-3 text-cyan-700 font-bold text-5xl handlename text-right'>خالد صقر</h1>
+>>>>>>> ad6eba3f1268382b0a06068642a71eb35135cf34
                     <p className='font-ku text-rose-500 text-3xl text-right leading-relaxed'>مــــنصة متخــــصــــصــــة في علم الأحياء</p>
                     <div className="flex justify-center gap-2 mt-3 flex-col">
                         {!user ? <Link to="/login" className="bg-cyan-500 border-2 border-cyan-500 hover:text-cyan-500 hover:bg-white flex items-center text-white dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg duration-300 transition-colors px-5 py-2.5">
