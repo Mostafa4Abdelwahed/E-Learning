@@ -26,7 +26,7 @@ const DetailsClasses = () => {
 
                     {
                         courses.length > 0 ?
-                            <div className="grid mt-10 grid-cols-1 md:grid-cols-3 gap-8 bg-gray-100 rounded-xl p-8">
+                            <div className="grid mt-10 grid-cols-1 md:grid-cols-3 gap-8 bg-gray-100 rounded-xl p-0 md:p-8">
                                 {
                                     courses.map((c) => {
                                         return (

@@ -69,7 +69,7 @@ const Sidebar = () => {
                             <i class="bi bi-amd px-4 py-3 text-white rounded-md bg-indigo-500">
                                 <BsDatabaseFillGear />
                             </i>
-                            <h1 className="font-bold text-gray-200 text-[20px] mr-3">لوحة تحكم كودر</h1>
+                            <h1 className="font-bold text-gray-200 text-[20px] mr-3">لوحة التحكم</h1>
                         </div>
 
                         <div className="flex flex-1 items-center justify-end">
