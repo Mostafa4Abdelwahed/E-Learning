@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
 const user = require("../../../Database/Models/user.model");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 module.exports.getAllUsers = asyncHandler(async (req, res) => {
     const User_Per_Page = 10;
