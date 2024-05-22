@@ -1,0 +1,29 @@
+.feature-wrapper{
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid #c5ddef;
+    padding: 2rem;
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    transition: all .3s ease-in-out;
+}
+.feature-wrapper img{
+    position: absolute;
+    top: -60px;
+    height: 100px;
+    width: 100px;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.feature-wrapper .text{
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: center;
+}
+.feature-wrapper .title{
+    margin: 1.2rem auto;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}

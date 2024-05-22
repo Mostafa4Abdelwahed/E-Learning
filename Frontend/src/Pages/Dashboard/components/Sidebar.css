@@ -1,0 +1,19 @@
+.navbar-links{
+    position: absolute;
+    z-index: 999;
+    top: -1000px !important;
+}
+.navbar-links.active{
+    background-color: #111827;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 15px;
+    top: 100% !important;
+}
+.navbar.fixed.top-0.left-0.right-0.block.lg\:hidden {
+    z-index: 99;
+}
+.NavSide.active{
+    background-color: #4F46E5;
+}

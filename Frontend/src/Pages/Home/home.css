@@ -1,0 +1,76 @@
+h1.handlename {
+    position: relative;
+    z-index: 10;
+    line-height: 3.5rem;
+}
+
+h1.handlename::before {
+    content: "";
+    background-image: url("./../../assets/outer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section {
+    background-image: url("./../../assets/pattern.png");
+}
+
+.hero-img {
+    animation: mymove infinite 1.3s ease-in-out alternate;
+}
+
+@keyframes mymove {
+    from {
+        transform: translateY(-15px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+}
+
+.social {
+    display: flex;
+    gap: 13px;
+}
+
+.social .site-social {
+    display: block;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 28px;
+}
+.social .facebook {
+    background-image: linear-gradient(to bottom, #17A9FD, #0165E1);
+}
+
+.social .instagram {
+    background-image: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
+
+.social .youtube {
+    background-image: linear-gradient(to right, #e52d27, #b31217);
+}
+
+.social .twitter {
+    background-image: linear-gradient(to right,#1DA1F2, #009ffc);
+}
+.desc-style::before{
+    content: "❤️";
+    margin-left: 15px;
+}
+.desc-style::after{
+    content: "❤️";
+    margin-right: 15px;
+}
+.af-be::before{
+    content:"<"
+}
+.af-be::after{
+    content:">"
+}

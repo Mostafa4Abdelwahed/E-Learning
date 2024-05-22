@@ -1,0 +1,20 @@
+/* width */
+.custom-scroll::-webkit-scrollbar {
+    height: 5px;
+}
+/* Track */
+.custom-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Handle */
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+}
+/* Handle on hover */
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.TabLink.active{
+    color: #2563eb !important;
+    border-color: #3b82f6 !important;
+}

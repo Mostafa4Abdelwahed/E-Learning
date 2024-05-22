@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+}
+
+*{
+    font-family: "Cairo", sans-serif
+}
+
+.font-ku {
+    font-family: "Kufam", sans-serif !important;
+}
+
+.dropNav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    z-index: 11;
+    gap: 15px;
+    left: 0;
+    top: 100%;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
