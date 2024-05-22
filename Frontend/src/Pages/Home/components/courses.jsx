@@ -10,9 +10,7 @@ const courses = () => {
         setClasses(data.data)
     }
     useEffect(() => {
-        return () => {
-            handlerClasses();
-        }
+        handlerClasses();
     }, [classes])
 
 
