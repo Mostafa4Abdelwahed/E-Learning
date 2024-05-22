@@ -7,8 +7,9 @@ h1.handlename {
 h1.handlename::before {
     content: "";
     background-image: url("./../../assets/hero-section/outer.png");
-    background-size: cover;
-    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
     width: 100%;
