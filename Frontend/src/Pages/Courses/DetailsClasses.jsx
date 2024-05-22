@@ -21,12 +21,12 @@ const DetailsClasses = () => {
         <>
             <HelmetHandler title={`كورسات ${level.title}`} />
             <div className='bg-cyan-900 min-h-[53vh]'>
-                <div className='max-w-screen-xl p-10 mx-auto'>
+                <div className='max-w-screen-xl p-5 md:p-10 mx-auto'>
                     <h1 className='text-3xl text-center text-white font-bold'>{level.title}</h1>
 
                     {
                         courses.length > 0 ?
-                            <div className="grid mt-10 grid-cols-1 md:grid-cols-3 gap-8 bg-gray-100 rounded-xl p-0 md:p-8">
+                            <div className="grid mt-10 grid-cols-1 md:grid-cols-3 gap-8 bg-transparent md:bg-gray-100 rounded-xl p-0 md:p-8">
                                 {
                                     courses.map((c) => {
                                         return (
