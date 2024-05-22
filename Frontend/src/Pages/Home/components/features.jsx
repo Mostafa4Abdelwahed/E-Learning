@@ -1,7 +1,7 @@
 import "./feature.css"
-import timer from "./../../../assets/timer-feature.png"
-import customer from "./../../../assets/customer-feature.png"
-import repeat from "./../../../assets/repeat-feature.png"
+import timer from "./../../../assets/feature-icons/timer-feature.png"
+import customer from "./../../../assets/feature-icons/customer-feature.png"
+import repeat from "./../../../assets/feature-icons/repeat-feature.png"
 
 const features = () => {
     return (

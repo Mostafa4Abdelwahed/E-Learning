@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import heroImg from "./../../../assets/hero.png"
+import heroImg from "./../../../assets/hero-section/hero.png"
 import { useSelector } from "react-redux"
 
 const hero = () => {

@@ -6,7 +6,7 @@ h1.handlename {
 
 h1.handlename::before {
     content: "";
-    background-image: url("./../../assets/outer.png");
+    background-image: url("./../../assets/hero-section/outer.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -16,7 +16,7 @@ h1.handlename::before {
 }
 
 .hero-section {
-    background-image: url("./../../assets/pattern.png");
+    background-image: url("./../../assets/hero-section/pattern.png");
 }
 
 .hero-img {

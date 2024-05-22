@@ -1,5 +1,5 @@
 import { useState } from "react"
-import logo from "./../../assets/logo.png"
+import logo from "./../../../public/logo.png"
 import { IoMdLogIn } from "react-icons/io"
 import { RiUserAddLine } from "react-icons/ri"
 import { Link } from "react-router-dom"
