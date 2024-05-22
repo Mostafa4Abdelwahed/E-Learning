@@ -18,11 +18,11 @@ const courses = () => {
 
     return (
         <>
-            <div className="xl:container m-auto py-16 bg-slate-100 px-6 text-gray-600 md:px-12 xl:px-6">
+            <div className="m-auto py-16 bg-slate-100 px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="mb-12 space-y-2 text-center">
                     <h2 className="text-3xl font-bold text-cyan-600 md:text-4xl">الصفوف الدراسية</h2>
                 </div>
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:container">
                     {
                         classes.map((c) => {
                             return (
