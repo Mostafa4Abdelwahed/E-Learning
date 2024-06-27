@@ -8,7 +8,7 @@ const hero = () => {
         <section className="hero-section text-gray-600 bg-slate-100 body-font">
             <div className="container max-w-5xl mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                    <img className="max-h-full hero-img" width="320" alt="hero" src={heroImg} />
+                    <img className="max-h-full hero-img" width="320" alt="hero" src="https://placehold.co/320x440" />
                 </div>
                 <div className="lg:flex-grow font-ku md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <span className='text-rose-500 font-ku font-bold text-lg'>مستر/</span>
