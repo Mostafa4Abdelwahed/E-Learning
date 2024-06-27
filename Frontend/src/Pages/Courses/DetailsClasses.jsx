@@ -72,7 +72,7 @@ const DetailsClasses = () => {
                             </div>
 
                             :
-                            <h1 className='text-center text-2xl text-white font-bold mt-20'>لا يتوفر كورسات حاليا</h1>
+                            <h1 className='text-center text-2xl text-white font-bold mt-20'> جاري التحميل </h1>
                     }
 
                 </div>
