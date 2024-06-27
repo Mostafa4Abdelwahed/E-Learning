@@ -26,7 +26,7 @@ const DetailsClasses = () => {
             <div className='bg-cyan-900'>
                 {
                     course.id ?
-                        <div className='max-w-screen-xl p-0 md:p-10 mx-auto'>
+                        <div className='max-w-screen-xl md:p-10 mx-auto'>
                             <div className="flex flex-col-reverse items-center justify-center md:flex-row gap-0 md:gap-10">
                                 <div className="md:basis-2/3 p-5 md:p-0">
                                     <img className='rounded-2xl' src={course?.thumbnail?.url} alt="Thumbnail" />
