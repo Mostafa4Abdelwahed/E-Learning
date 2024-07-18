@@ -1,11 +1,7 @@
 
 # 📢 E-Learning
 
-
-
 This is an online learning platform based on Mern Stack. Users can purchase courses online
-
-
 
 <br/>
 <br/>
