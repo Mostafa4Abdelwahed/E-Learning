@@ -3,8 +3,6 @@
 
 
 
- <img align="center" src="https://e-learning-frontend-xa11.onrender.com/assets/logo-DmwlBGCu.png" alt="Logo">
-
 This is an online learning platform based on Mern Stack. Users can purchase courses online
 
 
