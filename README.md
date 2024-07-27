@@ -57,7 +57,7 @@ This is an online learning platform based on Mern Stack. Users can purchase cour
 
 
 ## Demo
-https://coder-academy.onrender.com
+https://e-learning-three-kappa.vercel.app
 
 ### Admin:
 - Email: mostafa@gmail.com
