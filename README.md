@@ -55,3 +55,13 @@ This is an online learning platform based on Mern Stack. Users can purchase cour
 - Can create courses, watch any course's lectures, add or delete lectures in Courses, and delete any courses.
 - Can change the user role and delete any user.
 
+
+## Demo
+https://coder-academy.onrender.com
+
+### Admin:
+- Email: mostafa@gmail.com
+- Password: 123456
+### User:
+- Email: mostafa2@gmail.com
+- Password: 123456
