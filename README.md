@@ -4,7 +4,8 @@
 This is an online learning platform based on Mern Stack. Users can purchase courses online.
 
 # Image From App
-<img src="https://e.top4top.io/p_31545wkhm1.png" width-"100%" >
+
+<img src="https://e.top4top.io/p_31545wkhm1.png" width="100%" />
 
 # 🛠️ Tech stack 
 
