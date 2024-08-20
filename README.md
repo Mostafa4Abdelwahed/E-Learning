@@ -37,7 +37,6 @@ This is an online learning platform based on Mern Stack. Users can purchase cour
 
 
 <br/>
-<br/>
 
 # 🚀 Features
 
