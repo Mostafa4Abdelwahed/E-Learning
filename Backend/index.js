@@ -25,4 +25,5 @@ app.use(notFound)
 app.use(errorHandler)
 
 const port = process.env.PORT || 3000
-app.listen(port, () => console.log(`Server Is Running in ${process.env.NODE_ENV} Mode In Port ${port}`))
+// app.listen(port, () => console.log(`Server Is Running in ${process.env.NODE_ENV} Mode In Port ${port}`));
+module.exports = app;
